@@ -10,6 +10,8 @@ class Settings(BaseSettings):
   PATH_SAVE_DATA: Path = Path(r'../data/final')
   BENCHMARK_FILENAME: str = 'benchmark_data.csv'
   PATH_ELEC_DATA: Path = Path(r'../data/elec_data.json')
+  ELEXON_PROFILES: Path = Path(
+      r'../data/Average_Profiling_data_201314_evaluated@10yearNET_v1.0.xlsx')
 
 
 settings = Settings()
